@@ -1,0 +1,7 @@
+Method displayVehicle()
+    If make is not null
+        Return "Vehicle: " + make + " " + model + " " + color + " " + year
+    Else
+        Return "No vehicle information available."
+    End If
+End Method
