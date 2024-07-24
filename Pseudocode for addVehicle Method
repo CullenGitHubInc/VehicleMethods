@@ -1,0 +1,7 @@
+Method addVehicle(make, model, color, year)
+    Set this.make to make
+    Set this.model to model
+    Set this.color to color
+    Set this.year to year
+    Return "Vehicle added: " + make + " " + model + " " + color + " " + year
+End Method
