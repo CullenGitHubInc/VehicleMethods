@@ -1,0 +1,11 @@
+Method removeVehicle(make, model, color, year)
+    If this.make equals make AND this.model equals model AND this.color equals color AND this.year equals year
+         Set this.make to null
+       	 Set this.model to null
+       	 Set this.color to null
+         Set this.year to 0
+         Return "Vehicle removed: " + make + " " + model + " " + color + " " + year
+Else
+         Return "Mismatch: Vehicle not found."
+    End If
+End Method
