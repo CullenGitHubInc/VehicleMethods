@@ -75,7 +75,7 @@ public class Automobile {
     }
 
     public static void main(String[] args) {
-        // Example usage
+        // Example 
         Automobile car = new Automobile("Honda", "Fit", "Red", 2010);
         System.out.println(car.displayVehicle());
         System.out.println(car.removeVehicle("Honda", "Fit", "Red", 2010));
